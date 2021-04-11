@@ -1,0 +1,101 @@
+@media only screen and (max-width: 768px) {
+
+    /* Navigation */
+    #navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+        #navigation .logo {
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        #navigation ul {
+            padding: 0.5rem;
+        }
+    /* End Navigation */
+
+    /* Section Two - What We Do  */
+
+    .section-WhatWeDo .items {
+        display: block;
+        padding: 1rem;
+    }
+    .section-WhatWeDo .items .item {
+        display: flex;
+        text-align: left;
+    }
+      
+
+    .section-WhatWeDo .items .item i {
+        margin-right: 1.3rem;
+        align-self: center;
+        margin-bottom: 0;
+    }
+
+    /* End Section Two - What We Do  */
+
+    /* Section Three - Timeline */
+    .section-timeline .timeline::after {
+        left: 31px;
+    }
+    
+    .section-timeline  .time-container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    
+
+    .section-timeline  .time-container::before {
+        left: 50px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    
+    .section-timeline  .left::after   {
+        display: none;
+    }
+
+    .section-timeline  .right::after {
+        display: none;
+    }
+    
+    .section-timeline  .right {
+        left: 0%;
+    }
+
+    /* End Section Three - Timeline */
+
+    /*  Section Five - Benefits  */
+
+    .section-benefits .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    /* End Section Five - Benefits  */
+
+    /* Page Contact style */
+
+    #contact-form button {
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .map-item-left, .map-item-right {   
+        flex:100%;
+        
+    }
+  
+    .about-us-more-left, .about-us-more-right {   
+        flex:100%;
+    }
+
+    .our-team-img {
+        display: none;
+    }
+}

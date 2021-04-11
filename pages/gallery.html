@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Lorem ipsum, web design, template html5 css3" >
+        <meta name="keywords" content="html, css, js " >
+	<meta name="author" content="John Doe">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" media="screen and (max-width: 750px)" href="../css/style-medium.css">
+	<link rel="stylesheet" media="screen and (max-width: 450px)" href="../css/style-small.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"> </script>
+    <script src="../js/main.js"></script>
+
+	<title>Mój szablon - Media</title>
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav id="navigation">
+		<div id="logo">
+			<span class="text-blue-light">Lorem</span> Ipsum
+		</div>
+		<ul>
+			<li><a href="../index.html">Strona główna</a></li>
+            <li><a href="about.html">O nas</a></li>
+            <li><a href="gallery.html">Media</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+		</ul>
+	</nav>
+
+	<!-- Header -->
+	<header id="mini-header">
+		<div class="mini-header-content">
+			<h1><span class="text-blue-light">Galeria</span> Multimedialna</h1>
+			<hr class="hr-light" />
+		</div>
+	</header>
+
+	<main>
+		<div class="here-is bg-light">
+			<p id=”breadcrumb”>
+				Jesteś tutaj: 
+				<a href="../index.html">Strona główna</a>
+				<span>/</span>
+				<a href="gallery.html">Media</a>
+			</p> 
+		</div>
+
+		<section class="gallery bg-light">
+			<h2><span class="text-blue-dark">Galeria</span> Zdjęć</h2>
+			<div class="gallery-image">
+				<div class="img-box">
+					<img src="../img/gallery/library.jpg" alt="Zdjęcie biblioteki" />
+					<div class="transparent-box">
+						<div class="caption">
+							<p>Biblioteka</p>
+							<p class="opacity-low">Lorem ipsum</p>
+						</div>
+					</div>
+				</div>
+				<div class="img-box">
+					<img src="../img/gallery/nightsky.jpg" alt="Nocne niebo" />
+					<div class="transparent-box">
+						<div class="caption">
+							<p>Nocne niebo</p>
+							<p class="opacity-low">Lorem ipsum</p>
+						</div>
+					</div>
+				</div>
+				<div class="img-box">
+					<img src="../img/gallery/caffe.jpg" alt="Kawa w filiżance stojąca na stoliku" />
+					<div class="transparent-box">
+						<div class="caption">
+							<p>Kawa</p>
+							<p class="opacity-low">Lorem ipsum</p>
+						</div>
+					</div>
+				</div>
+				<div class="img-box">
+					<img src="../img/gallery/road.jpg" alt="Górska droga" />
+					<div class="transparent-box">
+						<div class="caption">
+							<p>Górska droga</p>
+							<p class="opacity-low">Lorem ipsum</p>
+						</div>
+					</div>
+				</div>
+				<div class="img-box">
+					<img src="../img/gallery/sea.jpg" alt="Morze na tle wierzowców" />
+					<div class="transparent-box">
+						<div class="caption">
+							<p>Morze</p>
+							<p class="opacity-low">Lorem ipsum</p>
+						</div>
+					</div>
+				</div>
+				<div class="img-box">
+					<img src="../img/gallery/boy.jpg"
+						alt="Chłopiec z pieskiem w nocnej scenerii, oświetlony blaskiem lampy" />
+					<div class="transparent-box">
+						<div class="caption">
+							<p>Chłopiec z psem</p>
+							<p class="opacity-low">Lorem ipsum</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-media bg-dark">
+			<h2><span class="text-blue-light">F</span>ilm</h2>
+			<div class="video-box">
+				<video id="video" controls>
+					<source src="../media/movie.mp4" type="video/mp4" />
+					Twoja przeglądarka nie wspiera tego elementu.
+				</video>
+			</div>
+			<h2><span class="text-blue-light">M</span>usic</h2>
+			<div class="music-box">
+				<audio id="music" controls>
+					<source src="../media/music.mp3" type="audio/mp3" />
+					Twoja przeglądarka nie wspiera tego elementu.
+				</audio>
+			</div>
+			<hr class="hr-light" />
+		</section>
+	</main>
+	<!-- Footer -->
+	<footer id="footer" class="bg-dark text-center">
+		<div class="container">
+			<a href="#mini-header" id="footer-btn" class="btn-up"><span class="hide">Przejdź do góry strony</span></a>
+			<p>Copyright &copy; 2020</p>
+		</div>
+	</footer>
+
+	<script src="../js/scroll.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Lorem ipsum, web design, template html5 css3" >
+    <meta name="keywords" content="html, css, js " >
+	<meta name="author" content="John Doe">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" >
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" media="screen and (max-width: 750px)" href="../css/style-medium.css">
+	<link rel="stylesheet" media="screen and (max-width: 450px)" href="../css/style-small.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"> </script>
+    <script src="../js/main.js"></script>
+	<title>Mój szablon - Kontakt</title>
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav id="navigation">
+		<div id="logo">
+			<span class="text-blue-light">Lorem</span> Ipsum
+		</div>
+		<ul>
+			<li><a href="../index.html">Strona główna</a></li>
+            <li><a href="about.html">O nas</a></li>
+            <li><a href="gallery.html">Media</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+		</ul>
+	</nav>
+
+	<!-- Header -->
+	<header id="mini-header">
+		<div class="mini-header-content">
+			<h1>
+				<span class="text-blue-light">Skontaktuj </span> się z nami
+			</h1>
+			<hr class="hr-light">
+		</div>
+	</header>
+
+	<main>
+		<div class="here-is bg-light">
+			<p id=”breadcrumb”>
+				Jesteś tutaj: 
+				<a href="../index.html">Strona domowa</a>
+				<span>/</span>
+				<a href="contact.html">Kontakt</a>
+			</p> 
+		</div>
+		<section id="contact-form" class="bg-light">
+			<div class="contact-form-container">
+				<h2>Lorem Ipsum</h2>
+				<p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
+				<div class="hi-sprite"></div>
+				<form action="mailto:test@wp.pl" method="post" enctype="text/plain" id="form">
+					<div class="row">
+						<div class="col-25">
+							<label for="fname">Imię: </label>
+						</div>
+						<div class="col-75">
+							<input type="text" id="fname" name="imie" placeholder="Twoje imię..">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="lname">Nazwisko: </label>
+						</div>
+						<div class="col-75">
+							<input type="text" id="lname" name="nazwisko" placeholder="Twoje nazwisko..">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="email">Email: </label>
+						</div>
+						<div class="col-75">
+							<input type="text" id="email" name="email" placeholder="Twój adress email..">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25">
+							<label for="subject">Treść: </label>
+						</div>
+						<div class="col-75">
+							<textarea id="subject" name="tresc" placeholder="Treść wiadomości.."
+								style="height:200px"></textarea>
+						</div>
+					</div>
+					<span class="form-message"></span>
+					<div class="row">
+						<button type="submit" id="btn-submit" class="button blue-btn">Wyślij</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="section-map bg-dark">
+			<div class="map-item-left">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10363.774927787668!2d20.48196049992395!3d53.75721690964831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x96c16bc1cba19269!2sGaleria%20Warmi%C5%84ska!5e0!3m2!1spl!2spl!4v1603974748367!5m2!1spl!2spl" title="Lokalizacja firmy">
+				</iframe>
+			</div>
+			<div class="map-item-right">
+				<h2><span class="text-blue-light">K</span>ontakt</h2>
+
+				<ul class="list">
+					<li><i class="fa fa-home"></i> ul.Tuwima 26, 10-748 Olsztyn</li>
+					<li><i class="fas fa-envelope"></i> firma@mail.pl</li>
+					<li><i class="fas fa-phone"></i> 777 - 777 - 777</li>
+				</ul>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- Footer -->
+	<footer id="footer" class="bg-dark text-center">
+		<div class="container">
+			<a href="#mini-header" id="footer-btn" class="btn-up"><span class="hide">Przejdź do góry strony</span></a>
+			<p>Copyright &copy; 2020</p>
+		</div>
+	</footer>
+	<script src="../js/scroll.js"></script>
+	<script src="../js/form-validation.js"></script>
+</body>
+</html>
